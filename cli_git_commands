@@ -4,10 +4,20 @@ touch <filename> //creates file
 rm -rf //deletes directory. the 'f' deletes files without y/n prompt
 
 
-git:
+
+git repo: git@github.com:gitluky/HomeRepot.git
+
+git commands:
 git init //sets up the directory to be a git directory
 git add <filename> or .//adds file to be tracked by git or entire directory by using '.'
 git status //check respository status
 git commit -am "<Commit Comment>" //commits changes with a comment. -a refers to 'all changes
 git clone <url to clone to local repository>
+
+git remote add <alias name for repo> <repo URL>
+git remote -v //view existing remotes
+git remote rename <current name> <new name>
+git push <name of remote repo> <branch> //send work from local to remote repository
+git pull <name of remote repo> <branch>
+git branch -r //to find all branch names
 
