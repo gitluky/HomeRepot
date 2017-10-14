@@ -17,7 +17,7 @@ git clone <url to clone to local repository>
 git remote add <alias name for repo> <repo URL>
 git remote -v //view existing remotes
 git remote rename <current name> <new name>
-git push <name of remote repo> <branch> //send work from local to remote repository
-git pull <name of remote repo> <branch>
+git push -u <name of remote repo> <branch> //send work from local to remote repository. -u only needed on first pull to set up tracking
+git pull <name of remote repo> <branch> //push and pull do not require the 2 arguments after pushing with -u (upstream)
 git branch -r //to find all branch names
 
