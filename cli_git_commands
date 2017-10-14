@@ -9,5 +9,5 @@ git init //sets up the directory to be a git directory
 git add <filename> or .//adds file to be tracked by git or entire directory by using '.'
 git status //check respository status
 git commit -am "<Commit Comment>" //commits changes with a comment. -a refers to 'all changes
-
+git clone <url to clone to local repository>
 
